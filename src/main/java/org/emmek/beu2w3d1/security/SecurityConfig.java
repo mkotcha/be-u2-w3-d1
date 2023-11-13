@@ -30,6 +30,7 @@ public class SecurityConfig {
         http.authorizeHttpRequests(request -> request
                 .requestMatchers(HttpMethod.GET, "/devices").permitAll()
                 .requestMatchers("/devices").authenticated());
+        http.authorizeHttpRequests(request -> request.requestMatchers("/login").permitAll());
         return http.build();
     }
 }

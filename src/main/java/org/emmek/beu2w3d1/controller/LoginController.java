@@ -6,7 +6,7 @@ import org.emmek.beu2w3d1.payloads.UserLoginDTO;
 import org.emmek.beu2w3d1.payloads.UserLoginSuccessDTO;
 import org.emmek.beu2w3d1.payloads.UserPostDTO;
 import org.emmek.beu2w3d1.services.LoginService;
-import org.emmek.beu2w3d1.services.UserServices;
+import org.emmek.beu2w3d1.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
@@ -21,7 +21,7 @@ public class LoginController {
     @Autowired
     private LoginService loginService;
     @Autowired
-    private UserServices userService;
+    private UserService userService;
 
     @PostMapping("/login")
     public UserLoginSuccessDTO login(@RequestBody @Validated UserLoginDTO body, BindingResult validation) {

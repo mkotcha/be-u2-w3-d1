@@ -20,7 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @Service
-public class UserServices {
+public class UserService {
     @Autowired
     UserRepository userRepository;
     @Autowired

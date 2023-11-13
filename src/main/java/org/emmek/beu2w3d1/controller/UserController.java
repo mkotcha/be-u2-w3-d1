@@ -5,7 +5,7 @@ import org.emmek.beu2w3d1.exception.BadRequestException;
 import org.emmek.beu2w3d1.exception.NotFoundException;
 import org.emmek.beu2w3d1.payloads.UserPostDTO;
 import org.emmek.beu2w3d1.payloads.UserPutDTO;
-import org.emmek.beu2w3d1.services.UserServices;
+import org.emmek.beu2w3d1.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
@@ -21,7 +21,7 @@ import java.io.IOException;
 public class UserController {
 
     @Autowired
-    private UserServices userService;
+    private UserService userService;
 
     @GetMapping("")
     public Page<User> getUsers(@RequestParam(defaultValue = "0") int page,

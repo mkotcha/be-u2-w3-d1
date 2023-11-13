@@ -27,9 +27,7 @@ public class SecurityConfig {
         http.addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
         // Aggiungo/rimuovo protezione sui singoli endpoint in maniera che venga/non venga richiesta l'autenticazione per accedervi
-        http.authorizeHttpRequests(request -> request.requestMatchers("/auth/**").permitAll());
-        http.authorizeHttpRequests(request -> request.requestMatchers("/users").authenticated());
-        http.authorizeHttpRequests(request -> request.requestMatchers("/devices").permitAll());
+        http.authorizeHttpRequests(request -> request.requestMatchers("/**").permitAll());
         return http.build();
     }
 }

@@ -1,0 +1,15 @@
+2023-11-13T14:17:35.016+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:17:35.018+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:17:35.019+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:17:36.825+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:17:36.877+01:00  INFO 177453 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-13T14:17:36.879+01:00  INFO 177453 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-13T14:17:38.387+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:17:39.120+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:17:39.385+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c4ffc460-98af-4dbf-9b79-463bd862d660
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:17:39.543+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 5.13 seconds (process running for 5.691)

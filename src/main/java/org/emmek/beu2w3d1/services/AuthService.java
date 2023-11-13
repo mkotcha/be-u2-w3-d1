@@ -16,10 +16,12 @@ public class AuthService {
     private JWTTools jwtTools;
 
     public String authenticateUser(UserLoginDTO body) {
-        // 1. Verifichiamo che l'email dell'utente sia nel db
-        User user = usersService.findByUsername(body.username());
-
-        // 2. In caso affermativo, verifichiamo se la password corrisponde a quella trovata nel db
+        User user;
+        try {
+            user = usersService.findByUsername(body.username());
+        } catch (Exception e) {
+            user = usersService.findByEmail(body.username());
+        }
         if (body.password().equals(user.getPassword())) {
             // 3. Se le credenziali sono OK --> Genero un JWT e lo restituisco
             return jwtTools.createToken(user);
@@ -27,7 +29,5 @@ public class AuthService {
             // 4. Se le credenziali NON sono OK --> 401
             throw new UnauthorizedException("Credenziali non valide!");
         }
-
-
     }
 }

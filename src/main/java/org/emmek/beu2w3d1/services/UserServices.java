@@ -79,5 +79,9 @@ public class UserServices {
     public User findByUsername(String username) {
         return userRepository.findByUsername(username).orElseThrow(() -> new NotFoundException("User with username " + username + " not found!"));
     }
+
+    public User findByEmail(String email) {
+        return userRepository.findByEmail(email).orElseThrow(() -> new NotFoundException("User with email " + email + " not found!"));
+    }
 }
 

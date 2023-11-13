@@ -10,6 +10,11 @@ public record UserPostDTO(
         @NotEmpty(message = "Username cannot be empty")
         @Size(min = 6, max = 30, message = "Username must be between 6 e 30 chars")
         String username,
+
+        @NotNull(message = "Password cannot be null")
+        @NotEmpty(message = "Password cannot be empty")
+        @Size(min = 6, max = 30, message = "Password must be between 6 e 30 chars")
+        String password,
         @NotEmpty(message = "Name cannot be empty")
         @Size(min = 3, max = 30, message = "Name must be between 3 e 30 chars")
         String name,

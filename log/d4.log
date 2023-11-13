@@ -13,3 +13,109 @@ Using generated security password: c4ffc460-98af-4dbf-9b79-463bd862d660
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
 2023-11-13T14:17:39.543+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 5.13 seconds (process running for 5.691)
+2023-11-13T14:20:14.470+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:20:14.471+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:20:14.471+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:20:15.017+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:20:15.103+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:20:15.312+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:20:15.408+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3678cbd4-a0a5-4d54-96df-1dc4c29ff009
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:20:15.450+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 1.02 seconds (process running for 161.598)
+2023-11-13T14:20:16.918+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:20:16.919+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:20:16.919+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:20:17.188+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:20:17.291+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:20:17.447+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:20:17.518+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b78a4ffa-0877-46b8-b15e-e0381628eca8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:20:17.542+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 0.646 seconds (process running for 163.69)
+2023-11-13T14:20:54.493+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:20:54.494+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:20:54.494+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:20:54.760+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:20:54.883+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:20:55.117+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:20:55.181+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 201d090c-bc7c-4787-b002-4910d68a9ebf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:20:55.205+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 0.732 seconds (process running for 201.353)
+2023-11-13T14:21:24.804+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:21:24.805+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:21:24.805+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:21:25.350+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:21:25.489+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:21:25.726+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:21:26.022+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3485e886-37b7-46e9-bd88-12c409dffc05
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:21:26.155+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 1.399 seconds (process running for 232.303)
+2023-11-13T14:21:27.601+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:21:27.601+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:21:27.601+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:21:28.084+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:21:28.169+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:21:28.397+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:21:28.519+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d0f98a71-1c42-4648-8a02-fed400a13dcd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:21:28.568+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 1.002 seconds (process running for 234.716)
+2023-11-13T14:27:43.987+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:27:43.988+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:27:43.988+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:27:44.172+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:27:44.257+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:27:44.390+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:27:44.435+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e96f27bf-bde3-47d3-8d3c-f95dbe6efaac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:27:44.456+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 0.487 seconds (process running for 610.604)
+2023-11-13T14:27:57.966+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 177453 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:27:57.967+01:00 DEBUG 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:27:57.967+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:27:58.267+01:00  INFO 177453 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:27:58.363+01:00  INFO 177453 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:27:58.507+01:00  WARN 177453 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:27:58.563+01:00  WARN 177453 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 96ecbc1e-0cf7-4c9e-bfaa-48c64fc6dc03
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:27:58.584+01:00  INFO 177453 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 0.643 seconds (process running for 624.732)
+2023-11-13T14:29:25.809+01:00  INFO 185755 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Starting U5d11Application using Java 20.0.2 with PID 185755 (/home/kutch/IdeaProjects/be-u2-w3-d1/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w3-d1)
+2023-11-13T14:29:25.810+01:00 DEBUG 185755 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-13T14:29:25.812+01:00  INFO 185755 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : The following 1 profile is active: "dev"
+2023-11-13T14:29:27.813+01:00  INFO 185755 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-13T14:29:27.870+01:00  INFO 185755 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-13T14:29:27.872+01:00  INFO 185755 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-13T14:29:29.064+01:00  INFO 185755 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-13T14:29:29.800+01:00  WARN 185755 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-13T14:29:29.818+01:00  WARN 185755 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 912305ac-1292-4e5b-9cc8-178e54092b9a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-13T14:29:30.239+01:00  INFO 185755 --- [restartedMain] org.emmek.beu2w3d1.U5d11Application      : Started U5d11Application in 4.91 seconds (process running for 5.459)

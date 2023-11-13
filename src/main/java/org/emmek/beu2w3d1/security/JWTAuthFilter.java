@@ -30,7 +30,7 @@ public class JWTAuthFilter extends OncePerRequestFilter {
         // 1. Verifichiamo se c'è header Authorization ed estraiamo il token da esso
         String authHeader = request.getHeader("Authorization"); // authHeader --> Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjk5ODczNTI3LCJleHAiOjE3MDA0NzgzMjd9.bCJaensC-bddAiDfU6Jt6JNN8Wooo6lEzypQkylEnUY
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
-            throw new UnauthorizedException("Per favore passa il Bearer Token nell'Authorization header");
+            throw new UnauthorizedException("Please insert a valid bearer token");
         } else {
             String token = authHeader.substring(7);
             System.out.println("TOKEN -> " + token);

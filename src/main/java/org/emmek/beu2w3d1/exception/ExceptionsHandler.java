@@ -39,6 +39,12 @@ public class ExceptionsHandler {
         return new ErrorPayload("Argument not Valid!", new Date());
     }
 
+    @ExceptionHandler(UnauthorizedException.class)
+    @ResponseStatus(HttpStatus.UNAUTHORIZED)
+    public ErrorPayload handleUnauthorized(UnauthorizedException e) {
+        return new ErrorPayload(e.getMessage(), new Date());
+    }
+
     @ExceptionHandler(Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ErrorPayload handleGeneric(Exception e) {

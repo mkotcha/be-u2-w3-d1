@@ -75,5 +75,9 @@ public class UserServices {
         userRepository.save(user);
         return url;
     }
+
+    public User findByUsername(String username) {
+        return userRepository.findByUsername(username).orElseThrow(() -> new NotFoundException("User with username " + username + " not found!"));
+    }
 }
 

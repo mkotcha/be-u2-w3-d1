@@ -20,7 +20,12 @@ public class LoginService {
         try {
             user = usersService.findByUsername(body.username());
         } catch (Exception e) {
-            user = usersService.findByEmail(body.username());
+            try {
+                user = usersService.findByEmail(body.username());
+            } catch (Exception ex) {
+                throw new UnauthorizedException("username or email not found");
+            }
+
         }
         if (body.password().equals(user.getPassword())) {
             // 3. Se le credenziali sono OK --> Genero un JWT e lo restituisco
